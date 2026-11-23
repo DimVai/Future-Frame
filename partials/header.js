@@ -1,8 +1,8 @@
 (() => {
-    const root = document.currentScript.getAttribute("src").replace("partials/header.js", "");
+    const root = document.currentScript.getAttribute("src").replace("partials/header.js", "") || "./";
     const current = document.body.dataset.page;
     const links = [
-        ["home", "Αρχική", "index.html"],
+        ["home", "Αρχική", ""],
         ["applications", "Εφαρμογές", "pages/applications.html"],
         ["contact", "Επικοινωνία", "pages/contact.html"]
     ];
@@ -14,7 +14,7 @@
     document.getElementById("page-header").innerHTML = `
         <a class="skip" href="#main">Μετάβαση στο περιεχόμενο</a>
         <div class="wrap header-inner">
-            <a class="brand" href="${root}index.html" lang="en">
+            <a class="brand" href="${root}" lang="en">
                 <img src="${root}resources/future-frame.png" alt="" width="498" height="374">
                 Future Frame
             </a>
