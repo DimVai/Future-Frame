@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <symbol id="chat" viewBox="0 0 24 24"><path d="M20 14a3 3 0 0 1-3 3H9l-5 4V6a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3z"/><path d="M8 8h8m-8 4h5"/></symbol>
+  <symbol id="workflow" viewBox="0 0 24 24"><rect x="2" y="9" width="6" height="6" rx="1.3"/><rect x="16" y="2" width="6" height="6" rx="1.3"/><rect x="16" y="16" width="6" height="6" rx="1.3"/><path d="M8 12h2a2 2 0 0 0 2-2V7a2 2 0 0 1 2-2h2m-4 5v7a2 2 0 0 0 2 2h2"/></symbol>
+  <symbol id="knowledge" viewBox="0 0 24 24"><path d="m12 3 10 5-10 5L2 8zM2 12l10 5 10-5M2 16l10 5 10-5"/></symbol>
+  <symbol id="voice" viewBox="0 0 24 24"><path d="M3 10v4m4-8v12m5-16v20m5-17v14m4-9v4"/></symbol>
+</svg>

@@ -1,0 +1,16 @@
+# Τοπικές ρυθμίσεις του VS Code
+# /Future-Frame.code-workspace
+
+# Αρχεία που δημιουργεί το λειτουργικό σύστημα
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+*.md
+!README.md
+node_modules/
+*.log
+.env
+.env.*
+!.env.example
+.VSCodeCounter

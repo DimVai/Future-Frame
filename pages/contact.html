@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="el">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#121116">
+    <meta name="description" content="Μιλήστε με τη Future Frame μέσω γραπτού ή φωνητικού βοηθού.">
+    <title>Επικοινωνία — Future Frame</title>
+    <link rel="icon" href="../resources/favicon.png" type="image/png">
+    <link rel="stylesheet" href="../resources/style.css">
+    <script type="module" src="../resources/flowise-chat.js"></script>
+    <script defer src="../resources/elevenlabs-voice.js"></script>
+</head>
+<body data-page="contact">
+    <header id="page-header"></header>
+    <script async src="../partials/header.js"></script>
+    <main id="main" class="wrap contact">
+        <header class="page-intro">
+            <h1>Ας <em>μιλήσουμε.</em></h1>
+            <p class="lead">Ρωτήστε τι μπορούμε να αυτοματοποιήσουμε ή ζητήστε να έρθετε σε επαφή με την ομάδα μας. Επιλέξτε πώς θέλετε να ξεκινήσετε.</p>
+        </header>
+        <div class="contact-grid">
+            <section class="card">
+                <span class="icon"><svg aria-hidden="true"><use href="../resources/icons.svg#chat"/></svg></span>
+                <h2>Γραπτός βοηθός</h2>
+                <p>Γράψτε την ερώτησή σας στο chatbot της Future Frame. Μπορείτε να ξεκινήσετε με μια εργασία που θέλετε να απλοποιήσετε.</p>
+                <p>Για να ξεκινήσετε, πατήστε το εικονίδιο με τον παπαγάλο κάτω δεξιά.</p>
+            </section>
+            <section class="card">
+                <span class="icon"><svg aria-hidden="true"><use href="../resources/icons.svg#voice"/></svg></span>
+                <h2>Φωνητικός βοηθός</h2>
+                <p>Μιλήστε με τον Phonebot από το κινητό ή τον υπολογιστή σας. Θα χρειαστεί πρόσβαση στο μικρόφωνο όταν ξεκινήσετε την κλήση.</p>
+                <button class="button" id="open-voice" type="button">Άνοιγμα Phonebot <span aria-hidden="true">↗</span></button>
+                <div id="voice-widget"></div>
+                <p class="status" id="voice-status" role="status"></p>
+            </section>
+        </div>
+        <noscript><p>Ενεργοποιήστε τη JavaScript για να χρησιμοποιήσετε τους βοηθούς.</p></noscript>
+    </main>
+    <footer id="page-footer"></footer>
+    <script async src="../partials/footer.js"></script>
+</body>
+</html>
