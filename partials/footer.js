@@ -6,7 +6,7 @@
                 <img src="${root}resources/future-frame.png" alt="" width="498" height="374">
                 Future Frame
             </a>
-            <span>Λύσεις και αυτοματισμοί με AI</span>
+            <span>Το μέλλον της τεχνητής νοημοσύνης</span>
             <a href="${root}pages/contact.html">Επικοινωνία <span aria-hidden="true">↗</span></a>
         </div>`;
 })();
