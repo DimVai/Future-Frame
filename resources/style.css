@@ -2,13 +2,13 @@
     color-scheme: dark;
     --background: #121116;
     --surface: #1b1921;
-    --surface-hover: #24202e;
+    --surface-hover: #262034;
     --text: #f6f4f8;
     --silver: #cbcbcb;
     --muted: #b7b3c0;
-    --primary: #442369;
-    --violet: #a979ff;
-    --lilac: #cfadff;
+    --primary: #4b1984;
+    --violet: #9767fb;
+    --lilac: #c6a8ff;
     --ink: #1a1028;
     --line: #35313c;
     --max-width: 80rem;
@@ -47,11 +47,11 @@ a, button, summary { -webkit-tap-highlight-color: transparent; }
 .skip { position: absolute; z-index: 5; left: 1rem; top: .5rem; padding: .8rem; background: var(--primary); transform: translateY(-160%); }
 .skip:focus { transform: translateY(0); }
 
-.hero { overflow: hidden; border-bottom: .0625rem solid var(--line); background: radial-gradient(ellipse at 77% 55%, #231a34 0, var(--background) 53%); }
+.hero { overflow: hidden; border-bottom: .0625rem solid var(--line); background: radial-gradient(ellipse at 77% 55%, #2b1b47 0, var(--background) 53%); }
 .hero-inner { display: grid; grid-template-columns: 1.02fr 1fr; align-items: center; position: relative; padding-block: clamp(3.6rem, 5.5vw, 5.25rem); }
 .hero-copy { position: relative; z-index: 1; }
 h1 { font-size: clamp(3.1rem, 5.05vw, 5rem); line-height: 1.06; font-weight: 620; letter-spacing: -.061em; }
-h1 em { color: var(--lilac); font-style: normal; background: linear-gradient(110deg, #d6adff, var(--violet) 80%); background-clip: text; -webkit-text-fill-color: transparent; }
+h1 em { color: var(--lilac); font-style: normal; background: linear-gradient(110deg, #b086fd, var(--violet) 80%); background-clip: text; -webkit-text-fill-color: transparent; }
 .lead { max-width: 48ch; margin-top: 1.55rem; color: var(--silver); font-size: clamp(1rem, 1.23vw, 1.13rem); line-height: 1.65; }
 .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.65rem; margin-top: 2rem; }
 .hero-art { position: relative; align-self: stretch; min-height: 19rem; }
@@ -63,16 +63,16 @@ h2 { font-size: clamp(1.75rem, 2.55vw, 2.7rem); font-weight: 600; line-height: 1
 .card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 .card { border: .0625rem solid var(--line); border-radius: 1rem; padding: clamp(1.3rem, 2.1vw, 2.15rem); background: linear-gradient(120deg, #211d28, var(--surface) 75%); }
 .service { display: block; transition: background-color .2s, border-color .2s, transform .2s; }
-.service:hover { transform: translateY(-.18rem); border-color: #78618e; background: var(--surface-hover); }
+.service:hover { transform: translateY(-.18rem); border-color: #8165a8; background: var(--surface-hover); }
 .card-top { display: flex; justify-content: space-between; align-items: flex-start; }
-.icon { display: inline-grid; place-items: center; width: 2.85rem; height: 2.85rem; border: .0625rem solid #533e6a; border-radius: .75rem; color: var(--lilac); background: linear-gradient(145deg, #3c2b52, #292033); }
+.icon { display: inline-grid; place-items: center; width: 2.85rem; height: 2.85rem; border: .0625rem solid #584078; border-radius: .75rem; color: var(--lilac); background: linear-gradient(145deg, #44286b, #271d3a); }
 .icon svg { width: 1.5rem; height: 1.5rem; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
 .corner-arrow { font: 1.3rem/1 Arial, sans-serif; color: var(--muted); }
 h3, .card h2 { font-size: clamp(1.18rem, 1.55vw, 1.55rem); font-weight: 620; line-height: 1.26; letter-spacing: -.035em; }
 .card h2, .card h3 { margin-top: 1.35rem; }
 .card p, .invitation p, .catalog-body p { color: var(--muted); line-height: 1.65; }
 .card p { margin-top: .7rem; font-size: .97rem; }
-.invitation { display: flex; align-items: center; justify-content: space-between; gap: 2rem; padding: 2.5rem clamp(1.4rem, 3vw, 3rem); margin-bottom: 4rem; border-radius: 1rem; background: linear-gradient(115deg, #352440, #211a2e 68%); border: .0625rem solid #493853; }
+.invitation { display: flex; align-items: center; justify-content: space-between; gap: 2rem; padding: 2.5rem clamp(1.4rem, 3vw, 3rem); margin-bottom: 4rem; border-radius: 1rem; background: linear-gradient(115deg, #3c245b, #221a37 68%); border: .0625rem solid #533d6e; }
 .invitation h2 { font-size: clamp(1.55rem, 2.15vw, 2.3rem); }
 .invitation p { margin-top: .65rem; }
 .invitation .button { flex-shrink: 0; }

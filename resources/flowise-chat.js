@@ -1,7 +1,7 @@
 import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
 Chatbot.init({
-    chatflowid: "888fad07-eaf6-4197-851c-cc5ce1befdc6",
-    apiHost: "https://dimflowise.up.railway.app",
+    chatflowid: "3ddc1413-4728-48d3-9d32-1a23833930bd",
+    apiHost: "https://dim-flowise.up.railway.app",
     chatflowConfig: {
         /* Chatflow Config */
     },
@@ -40,7 +40,17 @@ Chatbot.init({
         //     blurredBackgroundColor: 'rgba(0, 0, 0, 0.4)',
         //     backgroundColor: 'white'
         // },
-        customCSS: `*{font-weight: 400;}`,
+        customCSS: `
+            *{font-weight: 400;}
+            textarea.text-input {
+                scrollbar-width: thin;
+                scrollbar-color: #7653a6 transparent;
+            }
+            span:has(a.lite-badge) {
+                opacity: 0;
+                padding: 0;
+            }
+        `,
         chatWindow: {
             showTitle: true,
             showAgentMessages: true,
