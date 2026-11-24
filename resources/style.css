@@ -115,22 +115,24 @@ details p { padding: 0 1.25rem 1.2rem; }
 @media (max-width: 860px) {
     .wrap { width: 91%; }
     .header-inner nav { gap: 1.2rem; }
+    .header-action { padding-inline: .75rem; white-space: nowrap; }
     .hero-inner { grid-template-columns: 1.1fr 1fr; }
     .card-grid { gap: .65rem; }
     .card { padding: 1.2rem; }
     .catalog { gap: 2rem; }
+    .footer-inner { padding-inline-end: 5.25rem; }
 }
 @media (max-width: 680px) {
     #page-header { height: 6.8rem; }
-    .header-inner { display: grid; grid-template-columns: 1fr auto; grid-template-rows: 3.8rem 3rem; gap: 0; }
+    .header-inner { display: grid; grid-template-columns: 1fr auto; grid-template-rows: 3.8rem 3rem; gap: 0 .6rem; }
     .header-inner nav { grid-column: 1 / -1; grid-row: 2; align-self: stretch; justify-content: space-between; }
     .header-action { grid-row: 1; grid-column: 2; min-height: 2.2rem; font-size: .8rem; padding: .4rem .75rem; }
     .brand { font-size: 1.22rem; }
     .brand img { width: 2.15rem; }
-    .hero-inner { grid-template-columns: 1fr; padding-block: 2.8rem .8rem; }
+    .hero-inner { grid-template-columns: minmax(0, 1fr); gap: 1.25rem; padding-block: 2.8rem .8rem; }
     .hero-art { min-height: 0; height: clamp(14rem, 66vw, 23rem); }
-    .hero-art img { inset: -3% -3%; width: 106%; height: 110%; }
-    h1 { font-size: clamp(2.6rem, 9.4vw, 3.75rem); }
+    .hero-art img { position: static; display: block; width: 100%; height: 100%; }
+    h1 { font-size: clamp(2rem, 9.4vw, 3.75rem); overflow-wrap: anywhere; }
     .hero-copy h1 em br { display: none; }
     .actions { gap: 1.1rem; }
     .solutions { padding-block: 2.4rem; }
@@ -139,10 +141,16 @@ details p { padding: 0 1.25rem 1.2rem; }
     .card-grid { gap: .85rem; }
     .invitation { align-items: flex-start; flex-direction: column; margin-bottom: 2.5rem; gap: 1.5rem; }
     #page-footer { height: 5rem; }
+    .footer-inner { flex-wrap: wrap; align-content: center; gap: .55rem 1rem; }
     .footer-inner > span { display: none; }
     .contents { position: static; }
     .page-intro { padding-block: 2.8rem 2rem; }
     .contact { padding-bottom: 3rem; }
+}
+@media (max-width: 360px) {
+    .header-inner .brand { font-size: 1.1rem; }
+    .header-inner .brand img { width: 1.9rem; }
+    .header-action { gap: .5rem; padding-inline: .6rem; }
 }
 @media (prefers-reduced-motion: reduce) {
     .service { transition: none; }

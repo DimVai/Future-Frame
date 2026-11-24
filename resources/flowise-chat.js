@@ -25,7 +25,7 @@ Chatbot.init({
         },
         tooltip: {
             showTooltip: true,
-            tooltipMessage: 'Γεια σου 👋!',
+            tooltipMessage: 'Γεια σου!',
             tooltipBackgroundColor: 'black',
             tooltipTextColor: 'white',
             tooltipFontSize: 16
@@ -50,11 +50,14 @@ Chatbot.init({
                 opacity: 0;
                 padding: 0;
             }
+            @media (width <= 860px) {
+                .tooltip { display: none; }
+            }
         `,
         chatWindow: {
             showTitle: true,
             showAgentMessages: true,
-            title: 'Βοηθός',
+            title: 'Ψηφιακός Βοηθός',
             titleAvatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/parroticon.png',
             welcomeMessage: 'Καλησπέρα! Πως μπορώ να βοηθήσω.',
             errorMessage: 'Συνέβη κάποιο σφάλμα.',
