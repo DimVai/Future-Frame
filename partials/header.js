@@ -15,7 +15,7 @@
         <a class="skip" href="#main">Μετάβαση στο περιεχόμενο</a>
         <div class="wrap header-inner">
             <a class="brand" href="${root}" lang="en">
-                <img src="${root}resources/future-frame.png" alt="" width="498" height="374">
+                <img src="${root}resources/future-frame.webp" alt="" width="256" height="178">
                 Future Frame
             </a>
             <nav aria-label="Κύρια πλοήγηση">${navigation}</nav>

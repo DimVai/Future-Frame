@@ -3,7 +3,7 @@
     document.getElementById("page-footer").innerHTML = `
         <div class="wrap footer-inner">
             <a class="brand" href="${root}" lang="en">
-                <img src="${root}resources/future-frame.png" alt="" width="498" height="374">
+                <img src="${root}resources/future-frame.webp" alt="" width="256" height="178">
                 Future Frame
             </a>
             <span>Το μέλλον της τεχνητής νοημοσύνης</span>
